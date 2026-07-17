@@ -1,0 +1,14 @@
+PackageIdentifier: ZuseTechnologies.Truzt
+PackageVersion: 2.8.3
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://pkgs.truzt.lk/release/v2.8.3/Truzt-2.8.3-setup.exe
+    InstallerSha256: 409532A2AEAB084D9EC158134420765D1D50AE986EA7EC1479AD51E6DFFFF3C2
+ManifestType: installer
+ManifestVersion: 1.6.0

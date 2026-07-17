@@ -1,0 +1,12 @@
+PackageIdentifier: ZuseTechnologies.Truzt
+PackageVersion: 2.8.3
+PackageLocale: en-US
+Publisher: Zuse Technologies
+PublisherUrl: https://truzt.lk/
+PackageName: Truzt
+PackageUrl: https://truzt.lk/
+License: BSD-3-Clause
+ShortDescription: Truzt secure mesh network client (daemon + UI).
+Moniker: truzt
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
