@@ -1,0 +1,19 @@
+PackageIdentifier: ZuseTechnologies.Truzt
+PackageVersion: 2.9.2
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+# The v0.75.0+ Wails UI renders through Edge WebView2. The NSIS installer also
+# bootstraps it, but declaring it lets WinGet install the runtime up front.
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: Microsoft.EdgeWebView2Runtime
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://pkgs.truzt.lk/release/v2.9.2/Truzt-2.9.2-setup.exe
+    InstallerSha256: D706D739BD05BF699040B55A0384071C58B7555C98729090615D0F6CE544A01B
+ManifestType: installer
+ManifestVersion: 1.6.0
