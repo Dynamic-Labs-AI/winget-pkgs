@@ -1,5 +1,5 @@
 PackageIdentifier: ZuseTechnologies.Truzt
-PackageVersion: 2.9.2
+PackageVersion: 2.9.3
 InstallerType: nullsoft
 Scope: machine
 InstallModes:
@@ -13,7 +13,7 @@ Dependencies:
     - PackageIdentifier: Microsoft.EdgeWebView2Runtime
 Installers:
   - Architecture: x64
-    InstallerUrl: https://pkgs.truzt.lk/release/v2.9.2/Truzt-2.9.2-setup.exe
-    InstallerSha256: D706D739BD05BF699040B55A0384071C58B7555C98729090615D0F6CE544A01B
+    InstallerUrl: https://pkgs.truzt.lk/release/v2.9.3/Truzt-2.9.3-setup.exe
+    InstallerSha256: 237CF1B40DBE3C59639E9E76AF70F1AE50D64A0F2CE17ACA0C714B56DA4382B7
 ManifestType: installer
 ManifestVersion: 1.6.0
